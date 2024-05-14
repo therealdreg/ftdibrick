@@ -1,0 +1,81 @@
+# swig_add_library behavior changed in cmake 3.13 to no longer set
+# SWIG_MODULE_<target>_REAL_NAME, so restore the old behavior.
+if ( POLICY CMP0078 )
+  cmake_policy( SET CMP0078 OLD )
+endif ()
+
+# workaround for cmake bug #0013449
+if ( NOT DEFINED CMAKE_FIND_ROOT_PATH OR NOT CMAKE_VERSION VERSION_LESS 3.0.0 )
+  find_package ( SWIG REQUIRED )
+else ()
+  find_program ( SWIG_EXECUTABLE NAMES swig2.0 swig )
+  if ( SWIG_EXECUTABLE )
+    set ( SWIG_USE_FILE ${CMAKE_ROOT}/Modules/UseSWIG.cmake )
+    set ( SWIG_FOUND TRUE )
+  endif ()
+endif ()
+find_package ( PythonInterp REQUIRED )
+find_package ( PythonLibs REQUIRED )
+
+include ( UseSWIG )
+include_directories ( BEFORE ${CMAKE_SOURCE_DIR}/src )
+include_directories ( ${PYTHON_INCLUDE_DIRS} )
+link_directories ( ${CMAKE_CURRENT_BINARY_DIR}/../src )
+
+if ( DOCUMENTATION )
+  set(CMAKE_SWIG_FLAGS -DDOXYGEN=${DOXYGEN_FOUND})
+  # manually add dependency for new cmake / swig versions
+  set_property(SOURCE ftdi1.i PROPERTY DEPENDS ftdi1_doc.i)
+endif()
+if(NOT CMAKE_VERSION VERSION_LESS 3.8.0)
+  swig_add_library ( ftdi1 LANGUAGE python SOURCES ftdi1.i )
+else ()
+  swig_add_module ( ftdi1 python ftdi1.i )
+endif()
+swig_link_libraries ( ftdi1 ftdi1 )
+
+if ( LINK_PYTHON_LIBRARY )
+  swig_link_libraries ( ftdi1 ${PYTHON_LIBRARIES} )
+elseif( APPLE )
+  set_target_properties ( ${SWIG_MODULE_ftdi1_REAL_NAME} PROPERTIES LINK_FLAGS "-undefined dynamic_lookup" )
+endif ()
+
+set_target_properties ( ${SWIG_MODULE_ftdi1_REAL_NAME} PROPERTIES NO_SONAME ON )
+
+execute_process ( COMMAND ${PYTHON_EXECUTABLE} -c "from distutils import sysconfig; print( sysconfig.get_python_lib( plat_specific=True, prefix='${CMAKE_INSTALL_PREFIX}' ) )"
+                  OUTPUT_VARIABLE _ABS_PYTHON_MODULE_PATH
+                  OUTPUT_STRIP_TRAILING_WHITESPACE )
+
+get_filename_component ( _ABS_PYTHON_MODULE_PATH ${_ABS_PYTHON_MODULE_PATH} ABSOLUTE )
+file ( RELATIVE_PATH _REL_PYTHON_MODULE_PATH ${CMAKE_INSTALL_PREFIX} ${_ABS_PYTHON_MODULE_PATH} )
+
+set ( PYTHON_MODULE_PATH ${_REL_PYTHON_MODULE_PATH} )
+
+install ( FILES ${CMAKE_CURRENT_BINARY_DIR}/ftdi1.py DESTINATION ${PYTHON_MODULE_PATH} )
+install ( TARGETS ${SWIG_MODULE_ftdi1_REAL_NAME} LIBRARY DESTINATION ${PYTHON_MODULE_PATH} )
+
+if ( DOCUMENTATION )
+    # Run doxygen to only generate the xml
+    add_custom_command ( OUTPUT ${CMAKE_BINARY_DIR}/doc/xml/ftdi_8c.xml
+        COMMAND ${CMAKE_COMMAND} -E make_directory ${CMAKE_BINARY_DIR}/doc
+        COMMAND ${DOXYGEN_EXECUTABLE} ${CMAKE_BINARY_DIR}/Doxyfile.xml
+        WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+        DEPENDS ${c_headers};${c_sources};${cpp_sources};${cpp_headers}
+    )
+
+    # generate .i from doxygen .xml
+    add_custom_command ( OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/ftdi1_doc.i
+        COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/doxy2swig.py -n
+            ${CMAKE_BINARY_DIR}/doc/xml/ftdi_8c.xml
+            ${CMAKE_CURRENT_BINARY_DIR}/ftdi1_doc.i
+        DEPENDS ${CMAKE_BINARY_DIR}/doc/xml/ftdi_8c.xml
+    )
+    add_custom_target ( doc_i DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/ftdi1_doc.i )
+    add_dependencies( ${SWIG_MODULE_ftdi1_REAL_NAME} doc_i )
+
+endif ()
+
+set ( LIBFTDI_PYTHON_MODULE_PATH ${CMAKE_INSTALL_PREFIX}/${PYTHON_MODULE_PATH} )
+set ( LIBFTDI_PYTHON_MODULE_PATH ${LIBFTDI_PYTHON_MODULE_PATH} PARENT_SCOPE ) # for ftdiconfig.cmake
+
+add_subdirectory ( examples )

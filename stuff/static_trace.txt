@@ -1,0 +1,1565 @@
+#	Time of Day	Thread	Module	API	Return Value	Error	Duration
+1	8:59:32.335 PM	1	ntdll.dll	DllMain ( 0x750c0000, DLL_PROCESS_ATTACH, 0x007cf8f8 )	TRUE		0.0000190
+2	8:59:32.335 PM	1	ntdll.dll	DllMain ( 0x74f10000, DLL_PROCESS_ATTACH, 0x007cf8f8 )	TRUE		0.0002583
+3	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	IsProcessorFeaturePresent ( PF_XMMI64_INSTRUCTIONS_AVAILABLE )	TRUE		0.0000000
+4	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LoadLibraryExW ( "api-ms-win-core-synch-l1-2-0", NULL, LOAD_LIBRARY_SEARCH_SYSTEM32 )	0x75110000		0.0000074
+5	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "InitializeCriticalSectionEx" )	0x7511f7fb		0.0000028
+6	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1390, 4000, 0 )	TRUE		0.0000005
+7	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LoadLibraryExW ( "api-ms-win-core-fibers-l1-1-1", NULL, LOAD_LIBRARY_SEARCH_SYSTEM32 )	0x75110000		0.0000037
+8	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "FlsAlloc" )	0x751205b0		0.0000019
+9	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	FlsAlloc ( 0x00da836e )	4		0.0000009
+10	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "FlsSetValue" )	0x7511ead1		0.0000009
+11	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	FlsSetValue ( 4, 0x00dc1368 )	TRUE		0.0000000
+12	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LoadLibraryExW ( "api-ms-win-core-synch-l1-2-0", NULL, LOAD_LIBRARY_SEARCH_SYSTEM32 )	0x75110000		0.0000028
+13	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "InitializeCriticalSectionEx" )	0x7511f7fb		0.0000009
+14	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1970, 4000, 0 )	TRUE		0.0000000
+15	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1988, 4000, 0 )	TRUE		0.0000005
+16	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc19a0, 4000, 0 )	TRUE		0.0000005
+17	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc19b8, 4000, 0 )	TRUE		0.0000000
+18	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc19d0, 4000, 0 )	TRUE		0.0000000
+19	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc19e8, 4000, 0 )	TRUE		0.0000000
+20	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1a00, 4000, 0 )	TRUE		0.0000000
+21	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1a18, 4000, 0 )	TRUE		0.0000000
+22	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1a30, 4000, 0 )	TRUE		0.0000000
+23	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1a48, 4000, 0 )	TRUE		0.0000000
+24	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1a60, 4000, 0 )	TRUE		0.0000000
+25	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1a78, 4000, 0 )	TRUE		0.0000000
+26	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc1a90, 4000, 0 )	TRUE		0.0000000
+27	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcessHeap (  )	0x009c0000		0.0000000
+28	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LoadLibraryExW ( "api-ms-win-core-fibers-l1-1-1", NULL, LOAD_LIBRARY_SEARCH_SYSTEM32 )	0x75110000		0.0000028
+29	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "FlsAlloc" )	0x751205b0		0.0000009
+30	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	FlsAlloc ( 0x00dad846 )	5		0.0000005
+31	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_MEMBER_NOT_IN_GROUP		0.0000000
+32	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "FlsGetValue" )	0x7511d1b5		0.0000005
+33	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	NULL		0.0000000
+34	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 868 )	0x009d3300		0.0000009
+35	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "FlsSetValue" )	0x7511ead1		0.0000005
+36	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	FlsSetValue ( 5, 0x009d3300 )	TRUE		0.0000005
+37	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19e8 )			0.0000005
+38	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19e8 )			0.0000000
+39	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19d0 )			0.0000000
+40	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19d0 )			0.0000000
+41	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_MEMBER_NOT_IN_GROUP )			0.0000005
+42	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc1a18 )			0.0000000
+43	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc1a18 )			0.0000000
+44	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 3072 )	0x009d3670		0.0000005
+45	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3670, 4000, 0 )	TRUE		0.0000000
+46	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d36a0, 4000, 0 )	TRUE		0.0000005
+47	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d36d0, 4000, 0 )	TRUE		0.0000000
+48	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3700, 4000, 0 )	TRUE		0.0000000
+49	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3730, 4000, 0 )	TRUE		0.0000000
+50	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3760, 4000, 0 )	TRUE		0.0000000
+51	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3790, 4000, 0 )	TRUE		0.0000000
+52	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d37c0, 4000, 0 )	TRUE		0.0000005
+53	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d37f0, 4000, 0 )	TRUE		0.0000005
+54	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3820, 4000, 0 )	TRUE		0.0000000
+55	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3850, 4000, 0 )	TRUE		0.0000000
+56	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3880, 4000, 0 )	TRUE		0.0000005
+57	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d38b0, 4000, 0 )	TRUE		0.0000005
+58	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d38e0, 4000, 0 )	TRUE		0.0000005
+59	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3910, 4000, 0 )	TRUE		0.0000000
+60	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3940, 4000, 0 )	TRUE		0.0000005
+61	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3970, 4000, 0 )	TRUE		0.0000000
+62	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d39a0, 4000, 0 )	TRUE		0.0000000
+63	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d39d0, 4000, 0 )	TRUE		0.0000000
+64	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3a00, 4000, 0 )	TRUE		0.0000000
+65	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3a30, 4000, 0 )	TRUE		0.0000000
+66	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3a60, 4000, 0 )	TRUE		0.0000000
+67	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3a90, 4000, 0 )	TRUE		0.0000000
+68	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3ac0, 4000, 0 )	TRUE		0.0000000
+69	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3af0, 4000, 0 )	TRUE		0.0000000
+70	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3b20, 4000, 0 )	TRUE		0.0000000
+71	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3b50, 4000, 0 )	TRUE		0.0000000
+72	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3b80, 4000, 0 )	TRUE		0.0000000
+73	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3bb0, 4000, 0 )	TRUE		0.0000000
+74	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3be0, 4000, 0 )	TRUE		0.0000000
+75	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3c10, 4000, 0 )	TRUE		0.0000000
+76	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3c40, 4000, 0 )	TRUE		0.0000000
+77	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3c70, 4000, 0 )	TRUE		0.0000005
+78	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3ca0, 4000, 0 )	TRUE		0.0000005
+79	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3cd0, 4000, 0 )	TRUE		0.0000000
+80	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3d00, 4000, 0 )	TRUE		0.0000000
+81	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3d30, 4000, 0 )	TRUE		0.0000000
+82	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3d60, 4000, 0 )	TRUE		0.0000005
+83	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3d90, 4000, 0 )	TRUE		0.0000000
+84	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3dc0, 4000, 0 )	TRUE		0.0000005
+85	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3df0, 4000, 0 )	TRUE		0.0000000
+86	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3e20, 4000, 0 )	TRUE		0.0000005
+87	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3e50, 4000, 0 )	TRUE		0.0000000
+88	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3e80, 4000, 0 )	TRUE		0.0000000
+89	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3eb0, 4000, 0 )	TRUE		0.0000000
+90	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3ee0, 4000, 0 )	TRUE		0.0000005
+91	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3f10, 4000, 0 )	TRUE		0.0000000
+92	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3f40, 4000, 0 )	TRUE		0.0000000
+93	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3f70, 4000, 0 )	TRUE		0.0000005
+94	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3fa0, 4000, 0 )	TRUE		0.0000000
+95	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d3fd0, 4000, 0 )	TRUE		0.0000000
+96	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4000, 4000, 0 )	TRUE		0.0000000
+97	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4030, 4000, 0 )	TRUE		0.0000000
+98	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4060, 4000, 0 )	TRUE		0.0000000
+99	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4090, 4000, 0 )	TRUE		0.0000000
+100	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d40c0, 4000, 0 )	TRUE		0.0000000
+101	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d40f0, 4000, 0 )	TRUE		0.0000000
+102	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4120, 4000, 0 )	TRUE		0.0000000
+103	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4150, 4000, 0 )	TRUE		0.0000000
+104	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4180, 4000, 0 )	TRUE		0.0000005
+105	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d41b0, 4000, 0 )	TRUE		0.0000000
+106	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d41e0, 4000, 0 )	TRUE		0.0000005
+107	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4210, 4000, 0 )	TRUE		0.0000000
+108	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x009d4240, 4000, 0 )	TRUE		0.0000000
+109	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc1a18 )			0.0000000
+110	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetStartupInfoW ( 0x007cfa78 )			0.0000005
+111	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetStdHandle ( STD_INPUT_HANDLE )	0x00000024		0.0000000
+112	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetFileType ( 0x00000024 )	FILE_TYPE_CHAR		0.0000028
+113	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetStdHandle ( STD_OUTPUT_HANDLE )	0x00000028		0.0000000
+114	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetFileType ( 0x00000028 )	FILE_TYPE_CHAR		0.0000009
+115	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetStdHandle ( STD_ERROR_HANDLE )	0x0000002c		0.0000000
+116	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetFileType ( 0x0000002c )	FILE_TYPE_CHAR		0.0000005
+117	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc1a18 )			0.0000005
+118	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetCommandLineA (  )	0x009c2918		0.0000005
+119	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetCommandLineW (  )	0x009c1512		0.0000000
+120	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_MEMBER_NOT_IN_GROUP		0.0000005
+121	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+122	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_MEMBER_NOT_IN_GROUP )			0.0000005
+123	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_MEMBER_NOT_IN_GROUP		0.0000000
+124	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+125	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_MEMBER_NOT_IN_GROUP )			0.0000000
+126	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19e8 )			0.0000005
+127	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19e8 )			0.0000000
+128	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetACP (  )	1252		0.0000000
+129	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 544 )	0x009d4278		0.0000009
+130	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	IsValidCodePage ( Western-European )	TRUE		0.0000005
+131	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetCPInfo ( Western-European, 0x007cfaa8 )	TRUE		0.0000005
+132	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetCPInfo ( Western-European, 0x007cf370 )	TRUE		0.0000005
+133	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	MultiByteToWideChar ( Western-European, MB_PRECOMPOSED, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿà, 256, NULL, 0 )	256		0.0000005
+134	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	MultiByteToWideChar ( Western-European, MB_PRECOMPOSED, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿà, 256, 0x007cf108, 256 )	256		0.0000000
+135	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetStringTypeW ( CT_CTYPE1, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀ", 256, 0x007cf384 )	TRUE		0.0000014
+136	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	MultiByteToWideChar ( Western-European, MB_PRECOMPOSED, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿà, 256, NULL, 0 )	256		0.0000005
+137	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	MultiByteToWideChar ( Western-European, MB_PRECOMPOSED, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿà, 256, 0x007cf0b8, 256 )	256		0.0000005
+138	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LoadLibraryExW ( "api-ms-win-core-localization-l1-2-1", NULL, LOAD_LIBRARY_SEARCH_SYSTEM32 )	0x75110000		0.0000046
+139	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "LCMapStringEx" )	0x7511fc27		0.0000028
+140	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LCMapStringEx ( NULL, LCMAP_LOWERCASE, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀ", 256, NULL, 0, NULL, NULL, 0 )	256		0.0000000
+141	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LCMapStringEx ( NULL, LCMAP_LOWERCASE, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀ", 256, 0x007ceea8, 256, NULL, NULL, 0 )	256		0.0000014
+142	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	WideCharToMultiByte ( Western-European, 0, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰š‹œž‘’“”•–—˜™š›œžÿ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿àáâãäåæçèéêëìíîïðñòóôõö×øùúûüýþßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿȈ", 256, 0x007cf884, 256, NULL, NULL )	256		0.0000009
+143	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	MultiByteToWideChar ( Western-European, MB_PRECOMPOSED, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿà, 256, NULL, 0 )	256		0.0000000
+144	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	MultiByteToWideChar ( Western-European, MB_PRECOMPOSED, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿà, 256, 0x007cf0d8, 256 )	256		0.0000000
+145	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LCMapStringEx ( NULL, LCMAP_UPPERCASE, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿȈ", 256, NULL, 0, NULL, NULL, 0 )	256		0.0000000
+146	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LCMapStringEx ( NULL, LCMAP_UPPERCASE, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿȈ", 256, 0x007ceec8, 256, NULL, NULL, 0 )	256		0.0000014
+147	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	WideCharToMultiByte ( Western-European, 0, " 	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚Ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™Š›ŒŽŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ÷ØÙÚÛÜÝÞŸȈ", 256, 0x007cf784, 256, NULL, NULL )	256		0.0000005
+148	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19e8 )			0.0000000
+149	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19e8 )			0.0000000
+150	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19a0 )			0.0000005
+151	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 128 )	0x009cd780		0.0000005
+152	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19a0 )			0.0000000
+153	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetModuleFileNameA ( NULL, 0x00dc1430, 260 )	48		0.0000019
+154	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 57 )	0x009ce1a8		0.0000005
+155	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	InitializeSListHead ( 0x00dc1348 )			0.0000005
+156	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+157	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+158	8:59:32.335 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000009
+159	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	GetEnvironmentStringsW (  )	0x009d44a0		0.0000056
+160	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	WideCharToMultiByte ( CP_ACP, 0, "=::=::\", 1308, NULL, 0, NULL, NULL )	1308		0.0000005
+161	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 1308 )	0x009d4ee0		0.0000111
+162	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	WideCharToMultiByte ( CP_ACP, 0, "=::=::\", 1308, 0x009d4ee0, 1308, NULL, NULL )	1308		0.0000014
+163	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	FreeEnvironmentStringsW ( "=::=::\" )	TRUE		0.0000005
+164	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 152 )	0x009ce8c8		0.0000005
+165	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 31 )	0x009ca7a8		0.0000009
+166	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 38 )	0x009c5848		0.0000005
+167	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 55 )	0x009d17c8		0.0000005
+168	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 60 )	0x009ce2c8		0.0000000
+169	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 49 )	0x009d1708		0.0000000
+170	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 29 )	0x009ca960		0.0000000
+171	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 36 )	0x009ceb68		0.0000005
+172	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 20 )	0x009ca228		0.0000009
+173	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 13 )	0x009cdec8		0.0000005
+174	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 21 )	0x009ca248		0.0000000
+175	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 41 )	0x009d0520		0.0000005
+176	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 30 )	0x009ca780		0.0000000
+177	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 23 )	0x009ca288		0.0000000
+178	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 14 )	0x009cdef8		0.0000005
+179	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 105 )	0x009cfe98		0.0000005
+180	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 62 )	0x009ce040		0.0000000
+181	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 27 )	0x009ca9b0		0.0000005
+182	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 29 )	0x009ca7f8		0.0000000
+183	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 74 )	0x009d4940		0.0000019
+184	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 18 )	0x009ca268		0.0000000
+185	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 24 )	0x009ca3c8		0.0000000
+186	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 27 )	0x009ca9d8		0.0000000
+187	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 36 )	0x009ceb98		0.0000005
+188	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 41 )	0x009d02b8		0.0000000
+189	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 30 )	0x009caa00		0.0000000
+190	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 65 )	0x009d4ca8		0.0000005
+191	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 23 )	0x009ca348		0.0000000
+192	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 15 )	0x009cdd48		0.0000000
+193	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 22 )	0x009ca548		0.0000005
+194	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 38 )	0x009cff10		0.0000000
+195	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 37 )	0x009d4cf8		0.0000009
+196	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 27 )	0x009caac8		0.0000000
+197	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 42 )	0x009d05c8		0.0000000
+198	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 14 )	0x009cde20		0.0000000
+199	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 26 )	0x009cab18		0.0000005
+200	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 18 )	0x009ca2a8		0.0000005
+201	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 39 )	0x009d55e0		0.0000014
+202	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009d4ee0 )	TRUE		0.0000009
+203	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 2048 )	0x009d5810		0.0000032
+204	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc05a0, 4000, 0 )	TRUE		0.0000009
+205	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc05d8, 4000, 0 )	TRUE		0.0000000
+206	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSectionEx ( 0x00dc0610, 4000, 0 )	TRUE		0.0000000
+207	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	IsProcessorFeaturePresent ( PF_XMMI64_INSTRUCTIONS_AVAILABLE )	TRUE		0.0000005
+208	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	SetUnhandledExceptionFilter ( 0x00da7419 )	NULL		0.0000278
+209	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	InitializeCriticalSection ( 0x00dc0fe0 )			0.0000005
+210	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	CreateMutexA ( NULL, FALSE, NULL )	0x00000100		0.0000125
+211	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	CreateMutexA ( NULL, FALSE, NULL )	0x000000fc		0.0000014
+212	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	GetVersionExA ( 0x007cf928 )	TRUE		0.0000014
+213	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	WaitForSingleObject ( 0x000000fc, INFINITE )	WAIT_OBJECT_0		0.0000014
+214	8:59:32.991 PM	1	ntdll.dll	DllMain ( 0x71040000, DLL_PROCESS_ATTACH, NULL )	TRUE		0.0000074
+215	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 100 )	0x009e4a20		0.0000019
+216	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	WaitForSingleObject ( 0x00000100, INFINITE )	WAIT_OBJECT_0		0.0000009
+217	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 78 )	0x009d4998		0.0000000
+218	8:59:32.991 PM	1	ntdll.dll	DllMain ( 0x74d60000, DLL_PROCESS_ATTACH, NULL )	TRUE		0.0000014
+219	8:59:32.991 PM	1	ntdll.dll	DllMain ( 0x76fa0000, DLL_PROCESS_ATTACH, NULL )	TRUE		0.0000979
+220	8:59:32.991 PM	1	ntdll.dll	DllMain ( 0x76e10000, DLL_PROCESS_ATTACH, NULL )	TRUE		0.0000454
+221	8:59:32.991 PM	1	ftdibrickerd2xx_static.exe	CreateFileA ( "\\?\usb#vid_0403&pid_6001#a197wopg#{219d0508-57a8-4ff5-97a1-bd86587c6c7e}", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, 0, NULL )	0x00000118		0.0133013
+222	8:59:33.007 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 144 )	0x009e63d0		0.0000009
+223	8:59:33.007 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000118, 2228632, 0x007cf820, 96, 0x007cf820, 96, 0x007cf884, NULL )	FALSE	1 = Incorrect function. 	0.0000060
+224	8:59:33.007 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000118, 2236824, 0x007cf820, 96, 0x007cf820, 96, 0x007cf884, NULL )	TRUE		0.0000032
+225	8:59:33.007 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000118, 2236868, NULL, 0, 0x007cf8ac, 2, 0x007cf894, NULL )	TRUE		0.0000023
+226	8:59:33.007 PM	1	ftdibrickerd2xx_static.exe	ReleaseMutex ( 0x00000100 )	TRUE		0.0000014
+227	8:59:33.007 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000118, 2236580, 0x007cf970, 4, 0x007cf970, 4, 0x007cf97c, NULL )	TRUE		0.0000014
+228	8:59:33.007 PM	1	ftdibrickerd2xx_static.exe	WaitForSingleObject ( 0x00000100, INFINITE )	WAIT_OBJECT_0		0.0000009
+229	8:59:33.007 PM	1	ftdibrickerd2xx_static.exe	CloseHandle ( 0x00000118 )	TRUE		1.9933269
+230	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009d4998 )	TRUE		0.0000014
+231	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009e63d0 )	TRUE		0.0000019
+232	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	ReleaseMutex ( 0x00000100 )	TRUE		0.0000028
+233	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	ReleaseMutex ( 0x000000fc )	TRUE		0.0000009
+234	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+235	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 4096 )	0x009d6018		0.0000014
+236	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+237	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+238	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000005
+239	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+240	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+241	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+242	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+243	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 24, 0x007cdfa0, NULL )	TRUE		0.0002291
+244	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+245	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+246	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, HEAP_ZERO_MEMORY, 100 )	0x009d5170		0.0000009
+247	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WaitForSingleObject ( 0x000000fc, INFINITE )	WAIT_OBJECT_0		0.0000019
+248	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	ReleaseMutex ( 0x000000fc )	TRUE		0.0000009
+249	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+250	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+251	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+252	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+253	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+254	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+255	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+256	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+257	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 8, 0x007cdfa0, NULL )	TRUE		0.0001312
+258	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+259	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+260	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+261	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+262	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+263	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000005
+264	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+265	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+266	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+267	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+268	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 11, 0x007cdf98, NULL )	TRUE		0.0001275
+269	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+270	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+271	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+272	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+273	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+274	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000005
+275	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+276	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+277	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+278	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+279	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 10, 0x007cdf90, NULL )	TRUE		0.0001261
+280	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+281	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+282	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+283	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+284	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+285	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000005
+286	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+287	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+288	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+289	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+290	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 14, 0x007cdf88, NULL )	TRUE		0.0001280
+291	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+292	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+293	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+294	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+295	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+296	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000005
+297	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+298	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+299	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+300	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+301	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 12, 0x007cdf80, NULL )	TRUE		0.0001266
+302	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+303	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+304	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+305	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+306	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+307	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+308	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+309	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+310	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+311	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+312	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 23, 0x007cdf78, NULL )	TRUE		0.0001280
+313	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+314	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+315	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+316	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+317	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+318	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+319	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+320	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+321	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+322	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+323	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 29, 0x007cdf70, NULL )	TRUE		0.0001294
+324	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+325	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+326	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+327	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+328	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+329	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000005
+330	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+331	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000005
+332	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+333	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000000
+334	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 2, 0x007cdf68, NULL )	TRUE		0.0001002
+335	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+336	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+337	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc0fe0 )			0.0000000
+338	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	WaitForSingleObject ( 0x00000100, INFINITE )	WAIT_OBJECT_0		0.0000014
+339	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 78 )	0x009d4838		0.0000000
+340	8:59:35.007 PM	1	ftdibrickerd2xx_static.exe	CreateFileA ( "\\?\usb#vid_0403&pid_6001#a197wopg#{219d0508-57a8-4ff5-97a1-bd86587c6c7e}", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, 0, NULL )	0x00000108		0.0155858
+341	8:59:35.023 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 144 )	0x009e63d0		0.0000014
+342	8:59:35.023 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2228632, 0x007cf810, 96, 0x007cf810, 96, 0x007cf874, NULL )	FALSE	1 = Incorrect function. 	0.0000079
+343	8:59:35.023 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236824, 0x007cf810, 96, 0x007cf810, 96, 0x007cf874, NULL )	TRUE		0.0000028
+344	8:59:35.023 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236868, NULL, 0, 0x007cf89c, 2, 0x007cf884, NULL )	TRUE		0.0000019
+345	8:59:35.023 PM	1	ftdibrickerd2xx_static.exe	ReleaseMutex ( 0x00000100 )	TRUE		0.0000019
+346	8:59:35.023 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236576, 0x007cf980, 64, 0x007cf980, 64, 0x007cf960, NULL )	TRUE		0.0000023
+347	8:59:35.023 PM	1	ftdibrickerd2xx_static.exe	WaitForSingleObject ( 0x00000100, INFINITE )	WAIT_OBJECT_0		0.0000014
+348	8:59:35.023 PM	1	ftdibrickerd2xx_static.exe	CloseHandle ( 0x00000108 )	TRUE		2.0126859
+349	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009d4838 )	TRUE		0.0000014
+350	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009e63d0 )	TRUE		0.0000019
+351	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	ReleaseMutex ( 0x00000100 )	TRUE		0.0000023
+352	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc0fe0 )			0.0000005
+353	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+354	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+355	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+356	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+357	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+358	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+359	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+360	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+361	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 22, 0x007cdfa0, NULL )	TRUE		0.0002370
+362	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+363	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+364	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+365	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+366	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+367	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+368	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+369	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+370	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+371	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+372	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 41, 0x007cdf98, NULL )	TRUE		0.0001368
+373	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+374	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+375	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc0fe0 )			0.0000000
+376	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	WaitForSingleObject ( 0x00000100, INFINITE )	WAIT_OBJECT_0		0.0000014
+377	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 78 )	0x009d4a48		0.0000005
+378	8:59:37.038 PM	1	ftdibrickerd2xx_static.exe	CreateFileA ( "\\?\usb#vid_0403&pid_6001#a197wopg#{219d0508-57a8-4ff5-97a1-bd86587c6c7e}", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, 0, NULL )	0x00000108		0.0170165
+379	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 144 )	0x009e63d0		0.0000014
+380	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2228632, 0x007cf810, 96, 0x007cf810, 96, 0x007cf874, NULL )	FALSE	1 = Incorrect function. 	0.0000074
+381	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236824, 0x007cf810, 96, 0x007cf810, 96, 0x007cf874, NULL )	TRUE		0.0000028
+382	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236868, NULL, 0, 0x007cf89c, 2, 0x007cf884, NULL )	TRUE		0.0000019
+383	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	ReleaseMutex ( 0x00000100 )	TRUE		0.0000014
+384	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236576, 0x007cf980, 64, 0x007cf980, 64, 0x007cf960, NULL )	TRUE		0.0000019
+385	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc0fe0 )			0.0000005
+386	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236824, 0x007cf8d4, 96, 0x007cf8d4, 96, 0x007cf938, NULL )	TRUE		0.0000019
+387	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+388	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000009
+389	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+390	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+391	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+392	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+393	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+394	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+395	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 18, 0x007cdfa0, NULL )	TRUE		0.0001772
+396	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+397	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+398	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+399	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+400	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+401	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+402	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+403	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+404	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+405	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+406	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 2, 0x007cdf98, NULL )	TRUE		0.0001192
+407	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+408	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+409	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+410	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+411	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+412	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+413	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+414	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+415	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+416	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+417	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 2, 0x007cdfa0, NULL )	TRUE		0.0001183
+418	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+419	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+420	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 2108 )	0x009e2038		0.0000014
+421	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004962
+422	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006729
+423	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004893
+424	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005032
+425	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004962
+426	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005217
+427	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005050
+428	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005310
+429	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005612
+430	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005329
+431	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006734
+432	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004512
+433	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006910
+434	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005324
+435	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006613
+436	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004206
+437	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006432
+438	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004174
+439	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006632
+440	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004216
+441	8:59:37.054 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0019942
+442	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005783
+443	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005765
+444	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004248
+445	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0007100
+446	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004290
+447	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0007040
+448	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004262
+449	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0007082
+450	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004239
+451	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004652
+452	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004318
+453	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004522
+454	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004397
+455	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004299
+456	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004763
+457	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004730
+458	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004373
+459	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004545
+460	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004220
+461	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004281
+462	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003988
+463	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004355
+464	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004025
+465	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004308
+466	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004897
+467	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004021
+468	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004568
+469	8:59:37.070 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006020
+470	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004327
+471	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004151
+472	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004179
+473	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004025
+474	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005904
+475	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004355
+476	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004109
+477	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003965
+478	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004610
+479	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003664
+480	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003956
+481	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004012
+482	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004192
+483	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004192
+484	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004257
+485	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009e2038 )	TRUE		0.0000014
+486	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+487	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+488	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+489	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+490	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+491	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+492	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+493	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+494	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 22, 0x007cdfa0, NULL )	TRUE		0.0001711
+495	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+496	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+497	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+498	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+499	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+500	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+501	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+502	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+503	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+504	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+505	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 26, 0x007cdf98, NULL )	TRUE		0.0001350
+506	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+507	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+508	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+509	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+510	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+511	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+512	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+513	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+514	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+515	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+516	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 19, 0x007cdf90, NULL )	TRUE		0.0001312
+517	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+518	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+519	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+520	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+521	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+522	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+523	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+524	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+525	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+526	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+527	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 20, 0x007cdf88, NULL )	TRUE		0.0001289
+528	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+529	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+530	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+531	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+532	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+533	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+534	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+535	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+536	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+537	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+538	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 21, 0x007cdf80, NULL )	TRUE		0.0001299
+539	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+540	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+541	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+542	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+543	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+544	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+545	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+546	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+547	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+548	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+549	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 22, 0x007cdf78, NULL )	TRUE		0.0001285
+550	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+551	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+552	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+553	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+554	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+555	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+556	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+557	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+558	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+559	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+560	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 22, 0x007cdf70, NULL )	TRUE		0.0001285
+561	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+562	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+563	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+564	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+565	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+566	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+567	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+568	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+569	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+570	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+571	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 32, 0x007cdf68, NULL )	TRUE		0.0001299
+572	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+573	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+574	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+575	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+576	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+577	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+578	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+579	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+580	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+581	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+582	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 26, 0x007cdfa0, NULL )	TRUE		0.0001289
+583	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+584	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+585	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+586	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+587	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+588	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+589	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+590	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+591	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+592	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+593	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 16, 0x007cdf98, NULL )	TRUE		0.0001285
+594	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+595	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+596	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+597	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+598	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+599	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+600	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+601	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+602	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+603	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+604	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 10, 0x007cdf90, NULL )	TRUE		0.0005876
+605	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+606	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+607	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+608	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+609	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+610	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+611	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+612	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+613	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+614	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+615	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 18, 0x007cdf88, NULL )	TRUE		0.0005417
+616	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+617	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+618	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+619	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+620	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+621	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+622	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+623	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+624	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+625	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+626	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 19, 0x007cdf80, NULL )	TRUE		0.0004452
+627	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+628	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+629	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+630	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+631	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+632	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+633	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+634	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+635	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+636	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+637	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 16, 0x007cdf78, NULL )	TRUE		0.0004424
+638	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+639	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+640	8:59:37.085 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+641	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+642	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+643	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+644	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+645	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+646	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+647	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+648	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 19, 0x007cdf70, NULL )	TRUE		0.0008371
+649	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+650	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+651	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+652	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+653	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+654	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+655	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+656	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+657	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+658	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+659	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 20, 0x007cdf68, NULL )	TRUE		0.0010356
+660	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+661	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+662	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+663	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+664	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+665	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+666	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+667	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+668	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+669	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+670	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 22, 0x007cdfa0, NULL )	TRUE		0.0009442
+671	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+672	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+673	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+674	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+675	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+676	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+677	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+678	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+679	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+680	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+681	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 20, 0x007cdf98, NULL )	TRUE		0.0004591
+682	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+683	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+684	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+685	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+686	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+687	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+688	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+689	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+690	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+691	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+692	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 16, 0x007cdf90, NULL )	TRUE		0.0006725
+693	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+694	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+695	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+696	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+697	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+698	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+699	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+700	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+701	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+702	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+703	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 16, 0x007cdf88, NULL )	TRUE		0.0004355
+704	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+705	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+706	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+707	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+708	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+709	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+710	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+711	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+712	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+713	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+714	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 16, 0x007cdf80, NULL )	TRUE		0.0006989
+715	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+716	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+717	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+718	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+719	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+720	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+721	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+722	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+723	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+724	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+725	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 16, 0x007cdf78, NULL )	TRUE		0.0004359
+726	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+727	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+728	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+729	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+730	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+731	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+732	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+733	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+734	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+735	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+736	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 16, 0x007cdf70, NULL )	TRUE		0.0006864
+737	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+738	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+739	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+740	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+741	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+742	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+743	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+744	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+745	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+746	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+747	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 16, 0x007cdf68, NULL )	TRUE		0.0004401
+748	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+749	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+750	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+751	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+752	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+753	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+754	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+755	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+756	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+757	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+758	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 16, 0x007cdfa0, NULL )	TRUE		0.0006609
+759	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+760	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+761	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+762	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+763	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+764	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+765	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+766	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+767	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+768	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+769	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 15, 0x007cdf98, NULL )	TRUE		0.0004322
+770	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+771	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+772	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+773	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+774	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+775	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+776	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+777	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+778	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+779	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+780	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 12, 0x007cdf90, NULL )	TRUE		0.0004359
+781	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+782	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+783	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+784	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+785	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+786	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+787	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+788	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+789	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+790	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+791	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 12, 0x007cdf88, NULL )	TRUE		0.0004341
+792	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+793	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+794	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+795	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+796	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+797	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+798	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+799	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+800	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+801	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+802	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 12, 0x007cdf80, NULL )	TRUE		0.0006660
+803	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+804	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+805	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+806	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+807	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+808	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+809	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+810	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+811	8:59:37.101 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000009
+812	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+813	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 12, 0x007cdf78, NULL )	TRUE		0.0006706
+814	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+815	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+816	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+817	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+818	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+819	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+820	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+821	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+822	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+823	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+824	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 12, 0x007cdf70, NULL )	TRUE		0.0004763
+825	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+826	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+827	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+828	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+829	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+830	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000005
+831	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+832	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+833	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+834	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+835	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 14, 0x007cdf68, NULL )	TRUE		0.0004443
+836	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+837	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+838	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+839	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+840	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+841	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+842	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+843	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+844	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+845	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+846	8:59:37.117 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 2, 0x007cdfa0, NULL )	TRUE		0.0020007
+847	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+848	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+849	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+850	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000005
+851	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+852	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+853	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+854	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+855	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+856	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+857	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 35, 0x007cdfa0, NULL )	TRUE		0.0004420
+858	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+859	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+860	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 2108 )	0x009e2038		0.0000019
+861	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 32 )	0x009cab90		0.0000009
+862	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf7d8, 4, 0x007cf7fc, 2, 0x007cf7d0, NULL )	TRUE		0.0005431
+863	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009cab90 )	TRUE		0.0000009
+864	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	LoadLibraryExW ( "api-ms-win-core-sysinfo-l1-2-1", NULL, LOAD_LIBRARY_SEARCH_SYSTEM32 )	0x75110000		0.0000111
+865	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x75110000, "GetSystemTimePreciseAsFileTime" )	0x751c49e9		0.0000051
+866	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	GetSystemTimePreciseAsFileTime ( 0x007cf778 )			0.0000097
+867	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_FUNCTION		0.0000000
+868	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+869	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_FUNCTION )			0.0000000
+870	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 36 )	0x009d54f0		0.0000005
+871	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc1a00 )			0.0000005
+872	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc1a78 )			0.0000005
+873	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc1a78 )			0.0000005
+874	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	GetTimeZoneInformation ( 0x00dc18a0 )	2		0.0004262
+875	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_SUCCESS		0.0000000
+876	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+877	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_SUCCESS )			0.0000005
+878	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	WideCharToMultiByte ( CP_ACP, 0, "Romance Standard Time", -1, 0x00dc0738, 63, NULL, 0x007cf604 )	22		0.0000042
+879	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	WideCharToMultiByte ( CP_ACP, 0, "Romance Daylight Time", -1, 0x00dc0778, 63, NULL, 0x007cf604 )	22		0.0000000
+880	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc1a00 )			0.0000000
+881	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc1a00 )			0.0000005
+882	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc1a00 )			0.0000005
+883	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236788, NULL, 0, 0x007cf814, 1, 0x007cf7f8, NULL )	TRUE		0.0003984
+884	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236784, 0x007cf7fc, 1, NULL, 0, 0x007cf7f8, NULL )	TRUE		0.0005760
+885	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236552, NULL, 0, NULL, 0, 0x007cf7f8, NULL )	FALSE	87 = The parameter is incorrect. 	0.0000051
+886	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005111
+887	8:59:37.132 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0145725
+888	8:59:37.148 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0007439
+889	8:59:37.148 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0225961
+890	8:59:37.164 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005301
+891	8:59:37.164 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0139204
+892	8:59:37.179 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0004610
+893	8:59:37.179 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0135132
+894	8:59:37.195 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0004888
+895	8:59:37.195 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0136514
+896	8:59:37.211 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0004591
+897	8:59:37.211 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0144092
+898	8:59:37.226 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0008246
+899	8:59:37.226 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0142539
+900	8:59:37.242 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006075
+901	8:59:37.242 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0143146
+902	8:59:37.258 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005950
+903	8:59:37.258 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0143072
+904	8:59:37.273 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006057
+905	8:59:37.273 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0146040
+906	8:59:37.289 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006080
+907	8:59:37.289 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0141593
+908	8:59:37.304 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005774
+909	8:59:37.304 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0148359
+910	8:59:37.320 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006725
+911	8:59:37.320 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0139538
+912	8:59:37.336 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006177
+913	8:59:37.336 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0151735
+914	8:59:37.351 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005403
+915	8:59:37.351 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0150191
+916	8:59:37.366 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0009396
+917	8:59:37.366 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0145479
+918	8:59:37.382 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006813
+919	8:59:37.382 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0142052
+920	8:59:37.398 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006748
+921	8:59:37.398 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0146462
+922	8:59:37.414 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005820
+923	8:59:37.414 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0141885
+924	8:59:37.429 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006126
+925	8:59:37.429 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0144041
+926	8:59:37.445 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005667
+927	8:59:37.445 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0143448
+928	8:59:37.445 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0023749
+929	8:59:37.460 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0146634
+930	8:59:37.476 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006599
+931	8:59:37.476 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0167466
+932	8:59:37.492 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006052
+933	8:59:37.492 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0138142
+934	8:59:37.507 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005811
+935	8:59:37.507 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0146907
+936	8:59:37.523 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006553
+937	8:59:37.523 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0152385
+938	8:59:37.538 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006173
+939	8:59:37.538 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0141523
+940	8:59:37.554 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0005945
+941	8:59:37.554 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0165189
+942	8:59:37.570 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006145
+943	8:59:37.570 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0145627
+944	8:59:37.585 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006298
+945	8:59:37.585 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0143740
+946	8:59:37.601 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006219
+947	8:59:37.601 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0159717
+948	8:59:37.617 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0006182
+949	8:59:37.617 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236548, 0x007cf7f4, 4, 0x007cf7f4, 4, 0x007cf7f8, NULL )	TRUE		0.0143225
+950	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0005825
+951	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0007332
+952	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004707
+953	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0007777
+954	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004587
+955	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0007239
+956	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004995
+957	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0005653
+958	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004656
+959	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004754
+960	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004874
+961	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004703
+962	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004262
+963	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004276
+964	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004758
+965	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004151
+966	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004021
+967	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003956
+968	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004216
+969	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004577
+970	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0005176
+971	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004939
+972	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004095
+973	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0005987
+974	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004257
+975	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004434
+976	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004053
+977	8:59:37.632 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0011423
+978	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004452
+979	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004591
+980	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0005556
+981	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003854
+982	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004642
+983	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003937
+984	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004332
+985	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004670
+986	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004220
+987	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004466
+988	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004104
+989	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004749
+990	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004448
+991	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004225
+992	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003928
+993	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003905
+994	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004128
+995	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003770
+996	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003418
+997	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003627
+998	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003455
+999	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0004086
+1000	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003520
+1001	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003483
+1002	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003914
+1003	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003497
+1004	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003529
+1005	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003293
+1006	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003863
+1007	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003450
+1008	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003622
+1009	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003446
+1010	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003947
+1011	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003580
+1012	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003423
+1013	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007ceff4, 4, 0x007ceff0, 2, 0x007ceff8, NULL )	TRUE		0.0003729
+1014	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236784, 0x007cf7fc, 1, NULL, 0, 0x007cf7f8, NULL )	TRUE		0.0002648
+1015	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009e2038 )	TRUE		0.0000023
+1016	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1017	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1018	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1019	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1020	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000009
+1021	8:59:37.648 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007ce454, 29, 0x007ce44c, NULL )	TRUE		0.0028058
+1022	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1023	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1024	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1025	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1026	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1027	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1028	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+1029	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1030	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1031	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1032	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 24, 0x007cdfa0, NULL )	TRUE		0.0006915
+1033	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1034	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1035	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1036	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1037	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1038	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1039	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1040	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1041	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1042	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1043	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 2, 0x007cdf98, NULL )	TRUE		0.0003534
+1044	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1045	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1046	8:59:37.664 PM	1	ftdibrickerd2xx_static.exe	Sleep ( 1000 )			1.0120538
+1047	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 2108 )	0x009e2038		0.0000023
+1048	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0008204
+1049	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005644
+1050	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004401
+1051	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004591
+1052	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004879
+1053	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006168
+1054	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004652
+1055	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004962
+1056	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004883
+1057	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004730
+1058	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004684
+1059	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005468
+1060	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004846
+1061	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004494
+1062	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005273
+1063	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004197
+1064	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004726
+1065	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004540
+1066	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004665
+1067	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004846
+1068	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004067
+1069	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004090
+1070	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004355
+1071	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004475
+1072	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004401
+1073	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003784
+1074	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003928
+1075	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006521
+1076	8:59:38.679 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006910
+1077	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004870
+1078	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005282
+1079	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003919
+1080	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004786
+1081	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003849
+1082	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004902
+1083	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004239
+1084	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004373
+1085	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004420
+1086	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003812
+1087	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003974
+1088	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004851
+1089	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003761
+1090	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004086
+1091	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004545
+1092	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003937
+1093	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004039
+1094	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004030
+1095	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003752
+1096	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003678
+1097	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004206
+1098	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004856
+1099	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0004012
+1100	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003845
+1101	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003534
+1102	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003529
+1103	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0005755
+1104	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003678
+1105	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006391
+1106	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003919
+1107	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0006057
+1108	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003543
+1109	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003506
+1110	8:59:38.695 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0007035
+1111	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	DeviceIoControl ( 0x00000108, 2236544, 0x007cf954, 4, 0x007cf950, 2, 0x007cf958, NULL )	TRUE		0.0003613
+1112	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009e2038 )	TRUE		0.0000023
+1113	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1114	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1115	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1116	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1117	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1118	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1119	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1120	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1121	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 22, 0x007cdfa0, NULL )	TRUE		0.0008306
+1122	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1123	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1124	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1125	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1126	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1127	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1128	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1129	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1130	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1131	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1132	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 26, 0x007cdf98, NULL )	TRUE		0.0003803
+1133	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1134	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1135	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1136	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1137	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1138	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1139	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1140	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1141	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1142	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1143	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 19, 0x007cdf90, NULL )	TRUE		0.0005992
+1144	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1145	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1146	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1147	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1148	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1149	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1150	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1151	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1152	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1153	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1154	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 20, 0x007cdf88, NULL )	TRUE		0.0003469
+1155	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1156	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1157	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1158	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1159	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1160	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1161	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1162	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1163	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1164	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1165	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 21, 0x007cdf80, NULL )	TRUE		0.0003423
+1166	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1167	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+1168	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1169	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1170	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1171	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1172	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1173	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1174	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1175	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1176	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 22, 0x007cdf78, NULL )	TRUE		0.0003956
+1177	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1178	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1179	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1180	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1181	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1182	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1183	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1184	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1185	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1186	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1187	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 22, 0x007cdf70, NULL )	TRUE		0.0006205
+1188	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1189	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1190	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1191	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1192	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1193	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1194	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1195	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1196	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1197	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1198	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 32, 0x007cdf68, NULL )	TRUE		0.0003539
+1199	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1200	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1201	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1202	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1203	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1204	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1205	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1206	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1207	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1208	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1209	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 26, 0x007cdfa0, NULL )	TRUE		0.0006516
+1210	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1211	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1212	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1213	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1214	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1215	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1216	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1217	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1218	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1219	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1220	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 16, 0x007cdf98, NULL )	TRUE		0.0003488
+1221	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1222	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1223	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1224	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1225	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1226	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1227	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1228	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1229	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1230	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1231	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 10, 0x007cdf90, NULL )	TRUE		0.0005843
+1232	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1233	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1234	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1235	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1236	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1237	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1238	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+1239	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1240	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1241	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1242	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 18, 0x007cdf88, NULL )	TRUE		0.0003423
+1243	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1244	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1245	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1246	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1247	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1248	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1249	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+1250	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1251	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1252	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1253	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 19, 0x007cdf80, NULL )	TRUE		0.0005848
+1254	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1255	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1256	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1257	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1258	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1259	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1260	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+1261	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1262	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1263	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1264	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 16, 0x007cdf78, NULL )	TRUE		0.0003423
+1265	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1266	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1267	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1268	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1269	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1270	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1271	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1272	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1273	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1274	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1275	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 19, 0x007cdf70, NULL )	TRUE		0.0004063
+1276	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1277	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1278	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1279	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1280	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1281	8:59:38.710 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000014
+1282	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1283	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1284	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1285	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1286	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 20, 0x007cdf68, NULL )	TRUE		0.0005408
+1287	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1288	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1289	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1290	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1291	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1292	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1293	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1294	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1295	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1296	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1297	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 22, 0x007cdfa0, NULL )	TRUE		0.0003506
+1298	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1299	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1300	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1301	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1302	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1303	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1304	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+1305	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1306	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1307	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1308	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 20, 0x007cdf98, NULL )	TRUE		0.0003409
+1309	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1310	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1311	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1312	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1313	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1314	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1315	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1316	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1317	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1318	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1319	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 16, 0x007cdf90, NULL )	TRUE		0.0003372
+1320	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1321	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+1322	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1323	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1324	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1325	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1326	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1327	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1328	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1329	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1330	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 16, 0x007cdf88, NULL )	TRUE		0.0003488
+1331	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1332	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1333	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1334	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1335	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1336	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1337	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1338	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1339	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1340	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1341	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 16, 0x007cdf80, NULL )	TRUE		0.0003353
+1342	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1343	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1344	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1345	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1346	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1347	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1348	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1349	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1350	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1351	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1352	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 16, 0x007cdf78, NULL )	TRUE		0.0003348
+1353	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1354	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1355	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1356	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1357	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1358	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1359	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1360	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1361	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1362	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1363	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 16, 0x007cdf70, NULL )	TRUE		0.0003761
+1364	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1365	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1366	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1367	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1368	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1369	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1370	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1371	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1372	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1373	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1374	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 16, 0x007cdf68, NULL )	TRUE		0.0003576
+1375	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1376	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000005
+1377	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1378	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1379	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1380	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1381	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1382	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1383	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1384	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1385	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 16, 0x007cdfa0, NULL )	TRUE		0.0003423
+1386	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1387	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1388	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1389	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1390	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1391	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1392	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1393	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1394	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1395	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1396	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa0, 15, 0x007cdf98, NULL )	TRUE		0.0003358
+1397	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1398	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1399	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1400	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1401	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1402	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1403	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1404	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1405	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1406	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1407	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf98, 12, 0x007cdf90, NULL )	TRUE		0.0003325
+1408	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1409	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1410	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1411	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1412	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1413	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1414	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1415	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1416	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1417	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1418	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf90, 12, 0x007cdf88, NULL )	TRUE		0.0003330
+1419	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1420	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1421	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1422	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1423	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1424	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1425	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1426	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1427	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1428	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1429	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf88, 12, 0x007cdf80, NULL )	TRUE		0.0003311
+1430	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1431	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1432	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1433	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1434	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1435	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1436	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+1437	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1438	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1439	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1440	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf80, 12, 0x007cdf78, NULL )	TRUE		0.0003348
+1441	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1442	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1443	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1444	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1445	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1446	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1447	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1448	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1449	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1450	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1451	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf78, 12, 0x007cdf70, NULL )	TRUE		0.0003325
+1452	8:59:38.726 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1453	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1454	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1455	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1456	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1457	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1458	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000005
+1459	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1460	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1461	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1462	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdf70, 14, 0x007cdf68, NULL )	TRUE		0.0005199
+1463	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000005
+1464	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1465	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000005
+1466	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1467	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1468	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1469	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1470	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1471	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000000
+1472	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1473	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007cdfa8, 2, 0x007cdfa0, NULL )	TRUE		0.0003381
+1474	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1475	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1476	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	WaitForSingleObject ( 0x00000100, INFINITE )	WAIT_OBJECT_0		0.0000023
+1477	8:59:38.741 PM	1	ftdibrickerd2xx_static.exe	CloseHandle ( 0x00000108 )	TRUE		1.9980494
+1478	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009d4a48 )	TRUE		0.0000014
+1479	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009e63d0 )	TRUE		0.0000019
+1480	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	ReleaseMutex ( 0x00000100 )	TRUE		0.0000037
+1481	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1482	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000000
+1483	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1484	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000005
+1485	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d36a0 )			0.0000000
+1486	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	GetLastError (  )	ERROR_INVALID_PARAMETER		0.0000005
+1487	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	FlsGetValue ( 5 )	0x009d3300		0.0000005
+1488	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	SetLastError ( ERROR_INVALID_PARAMETER )			0.0000000
+1489	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	WriteFile ( 0x00000028, 0x007ce0f0, 20, 0x007ce0e8, NULL )	TRUE		0.0001136
+1490	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d36a0 )			0.0000000
+1491	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1492	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05a0 )			0.0000000
+1493	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	HeapAlloc ( 0x009c0000, 0, 4096 )	0x009d8828		0.0000023
+1494	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x009d3670 )			0.0000000
+1495	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	GetConsoleMode ( 0x00000024, 0x007cfa30 )	TRUE		0.0000139
+1496	8:59:40.742 PM	1	ftdibrickerd2xx_static.exe	ReadFile ( 0x00000024, 0x009d8828, 4096, 0x007cfa38, NULL )	TRUE		1.4988072
+1497	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x009d3670 )			0.0000005
+1498	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05a0 )			0.0000000
+1499	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	GetModuleHandleW ( NULL )	0x00da0000		0.0000005
+1500	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	GetModuleHandleW ( NULL )	0x00da0000		0.0000000
+1501	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19a0 )			0.0000000
+1502	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19a0 )			0.0000000
+1503	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009cd780 )	TRUE		0.0000019
+1504	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19a0 )			0.0000000
+1505	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc1a30 )			0.0000000
+1506	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05a0 )			0.0000000
+1507	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05a0 )			0.0000005
+1508	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc05d8 )			0.0000000
+1509	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc05d8 )			0.0000000
+1510	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc0610 )			0.0000000
+1511	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc0610 )			0.0000000
+1512	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc1a30 )			0.0000000
+1513	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc1a30 )			0.0000000
+1514	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc1a30 )			0.0000000
+1515	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009d8828 )	TRUE		0.0000009
+1516	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	DeleteCriticalSection ( 0x00dc05a0 )			0.0000005
+1517	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	DeleteCriticalSection ( 0x00dc05d8 )			0.0000000
+1518	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	DeleteCriticalSection ( 0x00dc0610 )			0.0000000
+1519	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009d5810 )	TRUE		0.0000000
+1520	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19a0 )			0.0000000
+1521	8:59:42.226 PM	1	ftdibrickerd2xx_static.exe	LoadLibraryExW ( "api-ms-win-appmodel-runtime-l1-1-1", NULL, LOAD_LIBRARY_SEARCH_SYSTEM32 )	0x73bd0000		0.0008900
+1522	8:59:42.242 PM	1	ntdll.dll	DllMain ( 0x73bd0000, DLL_PROCESS_ATTACH, NULL )	TRUE		0.0000000
+1523	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	GetProcAddress ( 0x73bd0000, "GetCurrentPackageId" )	0x73bd2202		0.0000074
+1524	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	GetModuleHandleExW ( 0, "mscoree.dll", 0x007cfac0 )	FALSE	126 = The specified module could not be found. 	0.0000037
+1525	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	ExitProcess ( 0 )			
+1526	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009d54f0 )	TRUE		0.0000000
+1527	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19e8 )			0.0000000
+1528	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19e8 )			0.0000000
+1529	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	EnterCriticalSection ( 0x00dc19d0 )			0.0000005
+1530	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	LeaveCriticalSection ( 0x00dc19d0 )			0.0000000
+1531	8:59:42.242 PM	1	ftdibrickerd2xx_static.exe	HeapFree ( 0x009c0000, 0, 0x009d3300 )	TRUE		0.0000009
+1532	8:59:42.242 PM	1	ntdll.dll	DllMain ( 0x73bd0000, DLL_PROCESS_DETACH, 0x00000001 )	TRUE		0.0000005
+1533	8:59:42.242 PM	1	ntdll.dll	DllMain ( 0x76e10000, DLL_PROCESS_DETACH, 0x00000001 )	TRUE		0.0000079
+1534	8:59:42.242 PM	1	ntdll.dll	DllMain ( 0x76fa0000, DLL_PROCESS_DETACH, 0x00000001 )	TRUE		0.0000111
+1535	8:59:42.242 PM	1	ntdll.dll	DllMain ( 0x74d60000, DLL_PROCESS_DETACH, 0x00000001 )	TRUE		0.0000005
+1536	8:59:42.242 PM	1	ntdll.dll	DllMain ( 0x71040000, DLL_PROCESS_DETACH, 0x00000001 )	TRUE		0.0000019
+1537	8:59:42.242 PM	1	ntdll.dll	DllMain ( 0x74f10000, DLL_PROCESS_DETACH, 0x00000001 )	TRUE		0.0000181
+1538	8:59:42.242 PM	1	ntdll.dll	DllMain ( 0x750c0000, DLL_PROCESS_DETACH, 0x00000001 )	TRUE		0.0002374

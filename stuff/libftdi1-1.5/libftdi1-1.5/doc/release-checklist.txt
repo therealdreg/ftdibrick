@@ -1,0 +1,33 @@
+*** Checklist for a new libftdi release ***
+- Update ChangeLog via git history:
+  git log --oneline latest_release..HEAD
+
+- Update AUTHORS via git history:
+  git log --pretty=format:"%an <%ae>" latest_release..HEAD |sort -u
+
+- Update version number in the following files:
+  - CMakeLists.txt
+  - README
+
+- Run "make dist"
+
+- Diff tarball to previous version, check if all
+  important changes are in the ChangeLog
+
+- Ensure all modifications are checked in
+
+- Sign tarball:
+  gpg2 --default-key opensource@intra2net.com --detach-sign --sign libftdi1-1.XX.tar.bz2
+
+- Create git tag:
+  - git tag -s -u 24F006F5 v1.XX
+  - git tag -d latest_release ; git tag latest_release
+  - git push --tags
+
+- Website
+  - Upload tarball
+  - Add ChangeLog to main page
+  - Update URLs in download section
+  - Generate API documentation and upload it
+
+- Announce on mailinglist

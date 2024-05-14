@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "param.h": "c",
+        "types.h": "c",
+        "fcntl.h": "c",
+        "compare": "c",
+        "cstdint": "c",
+        "usbdevice_fs.h": "c"
+    }
+}

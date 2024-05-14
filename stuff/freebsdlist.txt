@@ -1,0 +1,18 @@
+/dev/ugen0.4
+  Bus: 0
+  Address: 4
+  Producto: FT232R USB UART
+  Vendedor: FTDI
+  Versión: 6.00
+  Número de Producto: 24577 0x6001
+  Número de Vendedor: 1027 0x403
+  Número de Versión: 1536 0x600
+  Clase: 0
+  Subclase: 0
+  Protocolo: 0
+  Configuración Número: 1
+  Velocidad: 2
+  Número de Puertos: 0
+  Consumo de Energía: 90 mA
+  Número de Serie: A10LIWA6
+
