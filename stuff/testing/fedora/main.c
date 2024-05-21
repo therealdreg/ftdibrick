@@ -7,18 +7,23 @@
 
 int main() {
     int fd;
-    uint32_t test = 0;
+
+    struct usbdevfs_ctrltransfer request = { 0 };
+    request.bRequest = 0x00;
+    request.bRequestType = 0x40;
+
 
     int rc = 0;
 
 
     // Abrir el dispositivo FTDI como un archivo de dispositivo
-    fd = open("/dev/bus/usb/001/012", O_RDWR);
+    fd = open("/dev/bus/usb/001/013", O_RDWR);
 
-    rc = ioctl(fd,USBDEVFS_REAPURBNDELAY, NULL);
-    printf("%d", test); 
+    rc = ioctl(fd, USBDEVFS_CONTROL, &request);
+    printf("Reset! %d", rc);
 
 /*
+
     // Enviar el comando de reinicio utilizando ioctl
     if (ioctl(fd, USBDEVFS_RESET, 0) < 0) {
         perror("Error al reiniciar el dispositivo FTDI");
