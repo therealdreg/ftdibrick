@@ -1005,9 +1005,9 @@ int ftdi_usb_reset(struct ftdi_context *ftdi)
     if (ftdi == NULL || ftdi->usb_dev == NULL)
         ftdi_error_return(-2, "USB device unavailable");
 
-    if (libusb_control_transfer(ftdi->usb_dev, FTDI_DEVICE_OUT_REQTYPE,
+    if (libusb_control_transfer(ftdi->usb_dev, FTDI_DEVICE_OUT_REQTYPE,  
                                 SIO_RESET_REQUEST, SIO_RESET_SIO,
-                                ftdi->index, NULL, 0, ftdi->usb_write_timeout) < 0)
+                                ftdi->index, NULL, 0, ftdi->usb_write_timeout) < 0) // 0x40 00 00 00 00 00 00
         ftdi_error_return(-1,"FTDI reset failed");
 
     // Invalidate data in the readbuffer
