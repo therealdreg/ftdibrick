@@ -139,10 +139,6 @@ main:
 
     ; Poll Modem
 
-    ; COMPROBAR ESTO, PORQUE DEVUELVE < 0?
-
-   ; mov [esp], esp
-   ; add BYTE [esp], 0xB
     mov BYTE [esp], 0xC0
     mov BYTE [esp+0x1], 0x05
     mov BYTE [esp+0x4], 0x01
@@ -227,7 +223,7 @@ msg:
     mov ebx, 0x1
     lea ecx, [ebp+uid_msg]
     mov edx, 0x8
-    
+
     mov eax, 0x4
     int 80h
 
