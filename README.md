@@ -48,21 +48,18 @@ The eeprom needs to be written in 32-bit units, writes to even addresses are buf
 
 For windows we decided to use their driver as it let us brick the chip without administrator privileges.
 
-(ugly and buggy code starts here)
-
-- stuff/windows_ftdibrick -> Assembly POC
-- stuff/ftdibrickerd2xx
-- stuff/ftdibrickerd2xx_static
-- stuff/ftdibrickwin32_dreg_zadig_winusb -> POC for using with zadig, WinUSB
-- stuff/ftdibrickwin32_dreg_devicecontrol
+- src/windows_ftdibrick -> Assembly POC tested and fully working
+- src/ftdibrickerd2xx
+- src/ftdibrickerd2xx_static
+- src/ftdibrickwin32_dreg_zadig_winusb -> POC for using with zadig, WinUSB
+- src/ftdibrickwin32_dreg_devicecontrol
 
 (Dreg's note about devicecontrol: I've only been with the debugger and IDA for a few hours! But the communication part of the driver works... None of this is documented on the internet or public ;-D)
 
 ## FreeBSD
 
 - src/main.asm
-- stuff/freebsd_dreg
-
+- src/freebsd_dreg
 
 ## Linux
 
@@ -79,7 +76,15 @@ FTDI is a semiconductor company. It is heavily known for it's USB-UART chips (FT
 
 FT232R and FT245R devices have an integrated oscillator to simplify USB designs and reduce component count. When the internal oscillator is enable both the OSCI and OSCO pins are disconnected from the signals internally to the chip. After the use of `FTDIBRICK` we are making the FTDI chip to use a external clock connected to OSCI and OSCO pins and so disabling the internal oscillator, making the chip useless as there is no external oscillator.
 
-# USB PACKETS
+# HOW DOES FTDIBRICK WORKS?
+
+For the sake of simplicity i'll be explaining how the POC's work without entering in much detail of the OS used.
+
+First of all we search for our FTDI to brick by doing a look up of the devices using open(), iterating through the devices and calling `ioctl(fd, USB_GET_DEVICEINFO, &buffer)` until we find the VID and PID that correspond to the FTDI232R (0x04036001), if you change the VID and PID for the one on the FT245R code should also work but we didn't tested nor investigated about it. 
+
+Once we find our vulnerable FTDI, we start our brick sending some USB packets to the device: 
+
+#### USB PACKETS
 
 For bricking the FTDI Chip we need to overwrite the EEPROM configuration, before writing we must send three USB packets for the correct writing process:
 
@@ -91,18 +96,16 @@ For bricking the FTDI Chip we need to overwrite the EEPROM configuration, before
 
 ![pollmodem](assets/media/pollmodem.png)
 
-* LATENCY: Set latency (When latency is set to 0x77 it unlocks the EEPROM and allows writing)
+* LATENCY: Set latency (When latency is set to 0x77 it allos you to writing without any issue, if you try to write without this packet the whole eeprom will become 0xFF)
 
 ![latencypcap](assets/media/latencypcap.png)
 
 
-Once this is done we can write our malicious contents to the EEPROM
+We send this USB packets via `ioctl()`:
 
-## IOCTL SYSCALL FREEBSD/LINUX
+#### IOCTL SYSCALL FREEBSD/LINUX
 
-(For this example we will be using FREEBSD, the difference between FREEBSD and LINUX is just the command code).
-
-The ioctl syscall sends two or more arguments, depending on the ioctl request you send. In the case of the image we send three arguments as we use USB_GET_DEVICEINFO :
+The ioctl syscall sends two or more arguments, depending on the ioctl request you send. In our case we send three arguments because of `USB_GET_DEVICEINFO` :
 
 * The address of a buffer
 
@@ -113,13 +116,11 @@ The ioctl syscall sends two or more arguments, depending on the ioctl request yo
 ![ioctl](assets/media/ioctl.png)
 
 
-The request type: The ioctl requests has some cool stuff and so we made a deserializer for ioctl requests, you can find it on `stuff/serializer`.
-
 You may be wondering, what the hell is 0x41705570?
 
 0x41705570 it's the USB_GET_DEVICEINFO packet with all the information ioctl needs to know for doing the work.
 
-This is the structure of ioctl packets
+This is the structure of ioctl() packets.
 
 ```
         31   29 28                     16 15            8 7             0
@@ -138,6 +139,16 @@ This is the structure of ioctl packets
 7 - 0 bit: Simply the command, in this case is 0x70 (112 in decimal), in this case USB_GET_DEVICEINFO:
 
 ![define](assets/media/define.png)
+
+As you can see ioctl() requests has cool stuff and so we made a deserializer for you to see the packet more clear, you can find it on `stuff/serializer`.
+
+#### WRITING THE BRICK
+
+Once we send the three USB packets seen before, we are ready to write to the eeprom, basically we iterate through the contents of our `bad_eeprom` so that a word is written on the eeprom for each iteration (remember we have to write 16 bits in 16 bits).
+
+#### Delta Offset
+
+We used an old technique called `delta offset` in which basically we can use EBP as a base offset and to allow data without breaking anything, because of this we can use the POC's as shellcodes if we want to. 
 
 
 DISCLAIMER: On Linux you need to run the process as root to execute the POCs!
