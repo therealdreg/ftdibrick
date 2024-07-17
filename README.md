@@ -47,9 +47,13 @@ For the checksum they did something smart, they don't create a new checksum and 
 For Windows we decided to use their driver as it let us brick the chip without administrator privileges.
 
 src/windows_ftdibrick -> Assembly POC tested and fully working
+
 src/ftdibrickerd2xx
+
 src/ftdibrickerd2xx_static
+
 src/ftdibrickwin32_dreg_zadig_winusb -> POC for using with zadig, WinUSB
+
 src/ftdibrickwin32_dreg_devicecontrol
 
 (Dreg's note about devicecontrol: I've only been with the debugger and IDA for a few hours! But the communication part of the driver works... None of this is documented on the internet or public ;-D)
@@ -57,11 +61,13 @@ src/ftdibrickwin32_dreg_devicecontrol
 ## FreeBSD
 
 src/main.asm
+
 src/freebsd_dreg
 
 ## Linux
 
 src/fedora_ftdibrick
+
 src/libusb_ftdibrick -> POC using LibUsb for a generic linux FTDI brick!
 
 # FTDI EXTERNAL OSCILLATOR
@@ -134,7 +140,7 @@ Once we send the three USB packets seen before, we are ready to write to the eep
 
 #### Delta Offset
 
-We used an old technique called `delta offset` in which basically we can use EBP as a base offset and to use our data without breaking anything, because of this we can use the POC's as shellcodes if we want to.
+We used an old technique called `delta offset` in which basically we can use EBP as a base offset and to allow data without breaking anything, because of this we can use the POC's as shellcodes if we want to.
 
 DISCLAIMER: On Linux you need to run the process as root to execute the POCs!
 
