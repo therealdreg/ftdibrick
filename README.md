@@ -134,7 +134,7 @@ Once we send the three USB packets seen before, we are ready to write to the eep
 
 #### Delta Offset
 
-We used an old technique called `delta offset` in which basically we can use EBP as a base offset and to allow data without breaking anything, because of this we can use the POC's as shellcodes if we want to.
+We used an old technique called `delta offset` in which basically we can use EBP as a base offset and to use our data without breaking anything, because of this we can use the POC's as shellcodes if we want to.
 
 DISCLAIMER: On Linux you need to run the process as root to execute the POCs!
 
