@@ -116,8 +116,6 @@ main:
     push 0xBEBECAFE
     int 80h
 
-    mov ebx, [esp+4]
-
     mov ecx, [esp+(4*4)]
     add esp, (0x170)+(4*4)
 
