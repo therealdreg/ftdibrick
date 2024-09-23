@@ -1,17 +1,6 @@
 {
-    "files.associations": {
-        "param.h": "c",
-        "types.h": "c",
-        "fcntl.h": "c",
-        "compare": "c",
-        "cstdint": "c",
-        "usbdevice_fs.h": "c",
-        "unistd.h": "c",
-        "ioctl.h": "c",
-        "*.0": "c",
-        "ftdi.h": "c",
-        "errno.h": "c",
-        "libusb.h": "c",
-        "string.h": "c"
-    }
+    "editor.detectIndentation": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
 }

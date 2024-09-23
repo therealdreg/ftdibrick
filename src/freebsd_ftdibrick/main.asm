@@ -107,11 +107,11 @@ main:
 
     allocstackz 0x170
 
-    mov eax, esi
+   ; mov eax, esi
 
     push esp
     push 0x41705570 ; IOCTL USB_GET_DEVICEINFO PACKET
-    push eax ; FD
+    push esi ; FD
     mov eax, 0x36
     push 0xBEBECAFE
     int 80h
@@ -130,7 +130,7 @@ main:
 
 ; RESET
 
-    allocstackz 0x20
+    allocstackz 0x14
 
     mov BYTE [esp+0x9], 0x40
 
@@ -168,7 +168,6 @@ main:
 
     ; Latency
 
-
     mov BYTE [esp+0x9], 0x40
     mov BYTE [esp+0xA], 0x09
     mov BYTE [esp+0xB], 0x77
@@ -176,7 +175,7 @@ main:
 
     push esp
     push 0xC014556F
-    push ebx
+    push esi
     mov eax, 0x36
     push 0xBEBECAFE
 
@@ -191,6 +190,7 @@ main:
 
 
     lea edx, [ebp+bad_eeprom]
+    mov ebx, esi
     mov esi, 0x0
 
     write_cell_loop:
@@ -220,7 +220,6 @@ main:
     add esp, 0x20
 
 close_fd:
-    ;add esp, 4*1
 
     push ebx
     mov eax, 0x6
